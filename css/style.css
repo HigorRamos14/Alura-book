@@ -1,0 +1,14 @@
+@import url("header.css");
+
+:root {
+    --background-color: #EBECEE;
+    --branco: #ffffff;
+    --laranja: #EB9B00;
+    --azul-gradiente: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+
+}
+
+body {
+    background-color: var(--background-color);
+
+}
