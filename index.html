@@ -64,25 +64,48 @@
         <section class="carrossel">
             <h2 class="carrossel__titulo">Novos Lançamentos</h2>
 
-            <!-- Slider main container -->
+            <!-- carrossel com swiper -->
             <div class="swiper">
-                <!-- Additional required wrapper -->
-                 <!-- If we need pagination -->
+
                 <div class="swiper-pagination"></div>
                 <div class="swiper-wrapper">
-                <!-- Slides -->
+                
                     <div class="swiper-slide"><img src="imagens/ApacheKafka.svg" alt="ApacheKafka"></div>
                     <div class="swiper-slide"><img src="imagens/Lideranca.svg" alt="Lideranca"></div>
                     <div class="swiper-slide"><img src="imagens/Javascript.svg" alt="Javascript"></div>
                     <div class="swiper-slide"><img src="imagens/Guia Front-end.svg" alt="Guia Front-End"></div>
                     <div class="swiper-slide"><img src="imagens/Portugol.svg" alt="Portugol"></div>
                     <div class="swiper-slide"><img src="imagens/Acessibilidade.svg" alt="Acessibilidade"></div>
-                ...
+              
                 </div>
-            
-                    <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1° linha -->
+                <div class="card__descricao">
+                    <!-- 1° coluna -->
+                    <div class="descricao">
+                        <h3 class="descricao__titulo">Talvez você se interesse por...</h3>
+                        <h2 class="descricao__titulo-livro">Angular 11 e firebase</h2>
+                        <p class="descricao__texto">Construindo uma aplicação integrada com a plataforma do Google</p>
+                    </div>
+                    <!-- 2° coluna -->
+                    <img src="imagens/Angular.svg" alt="Angular" class="descricao__imagem">
+                </div>
+
+                <!-- 2° linha -->
+                <div class="card__botoes">
+                    <!-- 1° coluna -->
+                    <ul class="botoes">
+                        <li class="botoes__item"><img src="imagens/Favoritos.svg" alt="Favoritos"></li>
+                        <li class="botoes__item"><img src="imagens/Compras.svg" alt="Adicionar no carrinho"></li>
+                    </ul>
+                    <!-- 2° coluna -->
+                     <a href="#" class="botoes__ancora">Saiba Mais</a>
+                </div>
+
             </div>
         </section>
         
